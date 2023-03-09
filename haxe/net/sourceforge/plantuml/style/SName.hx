@@ -1,0 +1,140 @@
+// THIS FILE HAS BEEN GENERATED.
+
+package net.sourceforge.plantuml.style;
+
+import zava.lang.*;
+import haxe.Exception;
+using hx.strings.Strings;
+using zava.lang.JZStringUtils;
+
+class SName extends JZEnum {
+public static final activity = new SName("activity");
+public static final activityBar = new SName("activityBar");
+public static final activityDiagram = new SName("activityDiagram");
+public static final actor = new SName("actor");
+public static final agent = new SName("agent");
+public static final analog = new SName("analog");
+public static final archimate = new SName("archimate");
+public static final arrow = new SName("arrow");
+public static final artifact = new SName("artifact");
+public static final binary = new SName("binary");
+public static final boundary = new SName("boundary");
+public static final box = new SName("box");
+public static final boxless = new SName("boxless");
+public static final caption = new SName("caption");
+public static final card = new SName("card");
+public static final circle = new SName("circle");
+public static final classDiagram = new SName("classDiagram");
+public static final class_ = new SName("class_");
+public static final clickable = new SName("clickable");
+public static final cloud = new SName("cloud");
+public static final closed = new SName("closed");
+public static final collection = new SName("collection");
+public static final collections = new SName("collections");
+public static final component = new SName("component");
+public static final composite = new SName("composite");
+public static final robust = new SName("robust");
+public static final concise = new SName("concise");
+public static final clock = new SName("clock");
+public static final componentDiagram = new SName("componentDiagram");
+public static final constraintArrow = new SName("constraintArrow");
+public static final control = new SName("control");
+public static final database = new SName("database");
+public static final delay = new SName("delay");
+public static final destroy = new SName("destroy");
+public static final diamond = new SName("diamond");
+public static final document = new SName("document");
+public static final ebnf = new SName("ebnf");
+public static final element = new SName("element");
+public static final entity = new SName("entity");
+public static final end = new SName("end");
+public static final start = new SName("start");
+public static final stop = new SName("stop");
+public static final file = new SName("file");
+public static final folder = new SName("folder");
+public static final footer = new SName("footer");
+public static final frame = new SName("frame");
+public static final ganttDiagram = new SName("ganttDiagram");
+public static final group = new SName("group");
+public static final groupHeader = new SName("groupHeader");
+public static final header = new SName("header");
+public static final hexagon = new SName("hexagon");
+public static final highlight = new SName("highlight");
+public static final interface_ = new SName("interface_");
+public static final json = new SName("json");
+public static final jsonDiagram = new SName("jsonDiagram");
+public static final gitDiagram = new SName("gitDiagram");
+public static final label = new SName("label");
+public static final leafNode = new SName("leafNode");
+public static final legend = new SName("legend");
+public static final lifeLine = new SName("lifeLine");
+public static final mainframe = new SName("mainframe");
+public static final map = new SName("map");
+public static final milestone = new SName("milestone");
+public static final mindmapDiagram = new SName("mindmapDiagram");
+public static final network = new SName("network");
+public static final node = new SName("node");
+public static final note = new SName("note");
+public static final nwdiagDiagram = new SName("nwdiagDiagram");
+public static final objectDiagram = new SName("objectDiagram");
+public static final object = new SName("object");
+public static final package_ = new SName("package_");
+public static final participant = new SName("participant");
+public static final partition = new SName("partition");
+public static final person = new SName("person");
+public static final port = new SName("port");
+public static final queue = new SName("queue");
+public static final rectangle = new SName("rectangle");
+public static final reference = new SName("reference");
+public static final referenceHeader = new SName("referenceHeader");
+public static final regex = new SName("regex");
+public static final requirement = new SName("requirement");
+public static final root = new SName("root");
+public static final rootNode = new SName("rootNode");
+public static final saltDiagram = new SName("saltDiagram");
+public static final separator = new SName("separator");
+public static final sequenceDiagram = new SName("sequenceDiagram");
+public static final server = new SName("server");
+public static final stack = new SName("stack");
+public static final stateDiagram = new SName("stateDiagram");
+public static final state = new SName("state");
+public static final stateBody = new SName("stateBody");
+public static final stereotype = new SName("stereotype");
+public static final storage = new SName("storage");
+public static final swimlane = new SName("swimlane");
+public static final task = new SName("task");
+public static final timegrid = new SName("timegrid");
+public static final timeline = new SName("timeline");
+public static final timingDiagram = new SName("timingDiagram");
+public static final title = new SName("title");
+public static final undone = new SName("undone");
+public static final unstarted = new SName("unstarted");
+public static final usecase = new SName("usecase");
+public static final visibilityIcon = new SName("visibilityIcon");
+public static final private_ = new SName("private_");
+public static final protected_ = new SName("protected_");
+public static final public_ = new SName("public_");
+public static final IEMandatory = new SName("IEMandatory");
+public static final spot = new SName("spot");
+public static final spotAnnotation = new SName("spotAnnotation");
+public static final spotInterface = new SName("spotInterface");
+public static final spotEnum = new SName("spotEnum");
+public static final spotProtocol = new SName("spotProtocol");
+public static final spotStruct = new SName("spotStruct");
+public static final spotEntity = new SName("spotEntity");
+public static final spotException = new SName("spotException");
+public static final spotClass = new SName("spotClass");
+public static final spotAbstractClass = new SName("spotAbstractClass");
+public static final spotMetaClass = new SName("spotMetaClass");
+public static final spotStereotype = new SName("spotStereotype");
+public static final wbsDiagram = new SName("wbsDiagram");
+public static final yamlDiagram = new SName("yamlDiagram");
+
+
+
+    // depth(int)[128]
+    public static function depth_1(level: Int): String {
+return (((("depth(") + (level))) + (")"));
+    }
+
+}

@@ -1,0 +1,14 @@
+# Run the unit tests:
+# haxe build.hxml
+-cp haxe
+--library utest
+--library haxe-strings
+-dce no
+
+--each
+--python libplantuml.py
+-main MainCLI
+
+--next
+--js libplantuml.js
+
